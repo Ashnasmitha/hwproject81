@@ -30,8 +30,8 @@ const BottomTabNavigator=()=>{
     })}
     tabBarOptions={{activeTintColor:'tomato',inactiveTintColor:'gray'}}
     >
-    <Tab.screen name='Feed' component={Feed}/>
-    <Tab.screen name='CreatePost' component={CreatePost}/>
+    <Tab.Screen name='Feed' component={Feed}/>
+    <Tab.Screen name='CreatePost' component={CreatePost}/>
     </Tab.Navigator>
   )
 }
